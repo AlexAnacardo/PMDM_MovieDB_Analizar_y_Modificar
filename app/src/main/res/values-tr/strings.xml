@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Film Veritabanı</string>
+    <string name="error_loading_data">Veri yüklenemedi</string>
+    <string name="birthday_format">🎂 Doğum günü : %1$s</string>
+    <string name="popularity_format">🔥 Popülerlik : %1$.1f</string>
+    <string name="release_date_format">📅 Çıkış Tarihi : %1$s</string>
+    <string name="first_air_date_format">📅 İlk Yayın Tarihi : %1$s</string>
+    <string name="seasons_format">📺 Sezon : %1$d</string>
+    <string name="episodes_format">🎞 Bölüm : %1$d</string>
+    <string name="see_all">Tümünü Gör</string>
+    <string name="favorite_added">Favorilere eklendi</string>
+    <string name="favorite_removed">Favorilerden çıkarıldı</string>
+    <string name="movies">Filmler</string>
+    <string name="tv_series">Diziler</string>
+    <string name="dark_mode">Karanlık Mod</string>
+    <string name="select_language">Dil Seç</string>
+    <string name="english">İngilizce</string>
+    <string name="turkish">Türkçe</string>
+    <string-array name="language_entries">
+        <item>@string/english</item>
+        <item>@string/turkish</item>
+    </string-array>
+    <string name="no_results">İçerik bulunamadı</string>
+    <string name="favorites_title">Favorilerim</string>
+    <string name="now_playing">Şimdi Gösterimde</string>
+    <string name="popular">Popüler</string>
+    <string name="top_rated">En Beğenilen</string>
+    <string name="upcoming">Yakında</string>
+    <string name="tv_popular">Popüler Diziler</string>
+    <string name="airing_today">Bugün Yayında</string>
+    <string name="on_the_air">Yayında</string>
+    <string name="full_casts">Tüm Kadro</string>
+    <string name="recommend_contents">Önerilen İçerikler</string>
+    <string name="search_hint">Ara</string>
+    <string name="persons">Kişiler</string>
+    <string name="search">Ara</string>
+    <string name="settings">Ayarlar</string>
+    <string name="season">Sezon</string>
+    <string name="episode">Bölüm</string>
+    <string name="keyword">Anahtar Kelime</string>
+    <string name="movie_name">Film Adı</string>
+    <string name="series_name">Dizi Adı</string>
+    <string name="rating_suffix">/10</string>
+</resources>
