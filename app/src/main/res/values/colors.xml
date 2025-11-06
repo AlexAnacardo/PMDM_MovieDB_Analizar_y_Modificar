@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary">#05151b</color>
-    <color name="primary_dark">#05151b</color>
-    <color name="primary_transparent">#05151b</color>
-    <color name="primary_dark_transparent">#05151b</color>
+    <color name="primary">#4A148C</color>
+    <color name="primary_dark">#12005E</color>
+    <color name="primary_transparent">#4A148CAA</color>
+    <color name="primary_dark_transparent">#12005EAA</color>
 </resources>

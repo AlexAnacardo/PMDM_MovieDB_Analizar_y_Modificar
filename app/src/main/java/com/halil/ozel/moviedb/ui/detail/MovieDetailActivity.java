@@ -6,6 +6,8 @@ import static com.halil.ozel.moviedb.data.Api.TMDbAPI.TMDb_API_KEY;
 
 import android.annotation.SuppressLint;
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.animation.OvershootInterpolator;
 import android.view.View;
@@ -168,6 +170,17 @@ public class MovieDetailActivity extends AppCompatActivity {
                 Toast.makeText(this, R.string.favorite_added, Toast.LENGTH_SHORT).show();
             }
         });
+
+
+        Button btnShare = findViewById(R.id.btnShare);
+        btnShare.setOnClickListener(v -> {
+            Intent shareIntent = new Intent(Intent.ACTION_SEND);
+            shareIntent.setType("text/plain");
+            String message = "Te recomiendo ver: " + title + "\n" + etvOverview;
+            shareIntent.putExtra(Intent.EXTRA_TEXT, message);
+            startActivity(Intent.createChooser(shareIntent, "Compartir con"));
+        });
+
     }
 
     @SuppressLint("NotifyDataSetChanged")
